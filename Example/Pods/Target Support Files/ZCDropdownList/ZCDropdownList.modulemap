@@ -1,0 +1,6 @@
+framework module ZCDropdownList {
+  umbrella header "ZCDropdownList-umbrella.h"
+
+  export *
+  module * { export * }
+}

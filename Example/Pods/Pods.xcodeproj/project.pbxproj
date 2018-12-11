@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF978EC703E6A05C771E20F114C1B4B /* ZCDropdownListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E1C395C4799C81F46327987086684A /* ZCDropdownListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BFC1155212437D33DCB1AF18A6F6F71 /* ZCTableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB79BFE84E974176059716DDC1739C4 /* ZCTableViewAnimationKit.m */; };
+		21D27562F488A777BB92CB149483AC88 /* ZCTableViewAnimationKitConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 340339D190B8940E8F57EE27CFF0CAD3 /* ZCTableViewAnimationKitConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3192B56CADF69F6EC021B22E0D9A4911 /* ZCTableViewAnimationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D235E1116344DDDA454C8841C2BECD /* ZCTableViewAnimationKit.framework */; };
+		3A012C7249BDD688653645AFD0BAE430 /* dropdownFlag@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D51D76C49B27DA26BB8C30D7C91E /* dropdownFlag@2x.png */; };
+		5BB6D620DE7D52E2A37EE68E7E7DC585 /* ZCDropdownListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A1BDA65022FB8747BC2F2687716C1 /* ZCDropdownListView.m */; };
+		671C1392CA2B9A82C05850440B59DF87 /* ZCDropdownList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7DB04A3EF8A4B37820891C6C5A43E3 /* ZCDropdownList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE830830AEEC6DB8F08F3B034677594 /* Pods-ZCDropdownList_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CA33240E257885F7043B412616E9E7 /* Pods-ZCDropdownList_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BFA20123747C1AD6A33DCCC97E341A9 /* ZCTableViewAnimationKitHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = D9502A2EF6F8C293D3E355E20C268988 /* ZCTableViewAnimationKitHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D482EDD51638BAD783F6F3E450FACEB /* Pods-ZCDropdownList_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7134E84C0A90173AFCEA8183D0AB3982 /* Pods-ZCDropdownList_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F38165EBE006118D5B26B757096AF3C /* ZCTableViewAnimationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 91053A1EE869FD2882973C14B67C2C5D /* ZCTableViewAnimationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		734416992AB60AD8881292DD85C11961 /* UITableView+ZCAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC80A30AF05533D5F4FC7FBCFC9F94D /* UITableView+ZCAnimationKit.m */; };
+		75C2DA63919D520C39EB5F61142AC2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE80B7A3AC32F49713F4B3FCCA1557D /* Foundation.framework */; };
+		770AABE9842C15C0114D7D4CCD64C97C /* ZCDropdownType1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D0C618841D4876C328EAA159B89901 /* ZCDropdownType1TableViewCell.m */; };
+		7DA77DA22A8908E1B2C282BE4A15EAEE /* dropdownFlag@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6F8C8EF7E88F84EA2E0A97F5EFC8E83C /* dropdownFlag@3x.png */; };
+		84356373C067C28CFC418EA8BD823D9C /* ZCDropdownType2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 650186A3B995D244ED3AF09238737823 /* ZCDropdownType2TableViewCell.m */; };
+		867D96EFE3DF5898DC7BEEE982485818 /* ZCDropdownType2TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5939799B177A8F441E5A8A789E15E28 /* ZCDropdownType2TableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A0478E07842B47F2FF15B3BD20FD06D /* ZCDropdownList.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23FE395205B161F7EA0425FC013FFA84 /* ZCDropdownList.bundle */; };
+		9657A7DD66AE9EEEA7D1BA078454AAE4 /* ZCDropdownList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE168600DD2A832D690ABCC6CB4C10E /* ZCDropdownList-dummy.m */; };
+		A020CE44D40858C7EBBF2CDD29F6EA08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE80B7A3AC32F49713F4B3FCCA1557D /* Foundation.framework */; };
+		B2F573C271FD2971594A178508ACB9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE80B7A3AC32F49713F4B3FCCA1557D /* Foundation.framework */; };
+		B9884824BC479D138ADC2D2C51299C36 /* ZCTableViewAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C895C407A72F707420729751F638B6 /* ZCTableViewAnimationKit-dummy.m */; };
+		C7BF6BCE247EE0D3207783EFB867398A /* ZCTableViewAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EA8DD2332B9DF83007FD5C89108FA5 /* ZCTableViewAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F9EAC8ED94E973C45A09A801B3BC8F /* Pods-ZCDropdownList_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21153BC8BD356969BA25C201C9D3140A /* Pods-ZCDropdownList_Tests-dummy.m */; };
+		E1C3A70C82A135EEA73FC403573B89A3 /* UITableView+ZCAnimationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB68C4484CA32BA01B25E11AEDA4B1C /* UITableView+ZCAnimationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E696B1D179EB850EC010C08BCE08B18D /* Pods-ZCDropdownList_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BB7C9FA73224C650CC6410C00D537 /* Pods-ZCDropdownList_Example-dummy.m */; };
+		F0A8244807B01078FA520C90BBBE8368 /* ZCDropdownType1TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E85910EBEE511DA726C4D5AEEE0F27 /* ZCDropdownType1TableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCC4824D6F8F4815EE0C0B4731FE9D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE80B7A3AC32F49713F4B3FCCA1557D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068598D7ADB14708B277451225048AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B0DB524554CAFFD7EB9E3E85EBD0AF;
+			remoteInfo = ZCTableViewAnimationKit;
+		};
+		278FC0FB43B5F31F95EB719E52927B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 155C1CB0EB85FAD460F11E8E5369FF35;
+			remoteInfo = "Pods-ZCDropdownList_Example";
+		};
+		2E3BD3E72E54593F4422EA20751D0C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B0DB524554CAFFD7EB9E3E85EBD0AF;
+			remoteInfo = ZCTableViewAnimationKit;
+		};
+		BDC55E7615485BB6A3979393CF6F64E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F011868C0342C5115582CBAE795C5F;
+			remoteInfo = ZCDropdownList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A23FA9AB1DD26BFC569F01C46DC863 /* ZCDropdownList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCDropdownList.framework; path = ZCDropdownList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0269EF7109F4FFB5F0C7A0C6694A8E99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041B3ED01B5D3FF66D7F28A977B51933 /* Pods-ZCDropdownList_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDropdownList_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BC4D2FF530C5E208D5F09B8D1F5A9E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3BB7C9FA73224C650CC6410C00D537 /* Pods-ZCDropdownList_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCDropdownList_Example-dummy.m"; sourceTree = "<group>"; };
+		0DE168600DD2A832D690ABCC6CB4C10E /* ZCDropdownList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCDropdownList-dummy.m"; sourceTree = "<group>"; };
+		11EA4D8410F169685EEE143D3656E24C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1364A442D491E175FEE66095A00D2EC3 /* Pods-ZCDropdownList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZCDropdownList_Example.modulemap"; sourceTree = "<group>"; };
+		1BB79BFE84E974176059716DDC1739C4 /* ZCTableViewAnimationKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCTableViewAnimationKit.m; path = ZCTableViewAnimationKit/Classes/ZCTableViewAnimationKit.m; sourceTree = "<group>"; };
+		20A53D693777C256002831AF7775E474 /* ZCDropdownList.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZCDropdownList.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21153BC8BD356969BA25C201C9D3140A /* Pods-ZCDropdownList_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCDropdownList_Tests-dummy.m"; sourceTree = "<group>"; };
+		21933F99B9F9980C3B15E302340FEA30 /* Pods_ZCDropdownList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCDropdownList_Tests.framework; path = "Pods-ZCDropdownList_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FE395205B161F7EA0425FC013FFA84 /* ZCDropdownList.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZCDropdownList.bundle; path = ZCDropdownList/Classes/ZCDropdownList.bundle; sourceTree = "<group>"; };
+		294DA159869774002B59758C7CA3F9D0 /* ZCDropdownList.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCDropdownList.xcconfig; sourceTree = "<group>"; };
+		2C1A1BDA65022FB8747BC2F2687716C1 /* ZCDropdownListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDropdownListView.m; path = ZCDropdownList/Classes/ZCDropdownListView.m; sourceTree = "<group>"; };
+		312AB544BB20D2E1FE774D0BD64DF220 /* Pods-ZCDropdownList_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCDropdownList_Example-frameworks.sh"; sourceTree = "<group>"; };
+		340339D190B8940E8F57EE27CFF0CAD3 /* ZCTableViewAnimationKitConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCTableViewAnimationKitConfig.h; path = ZCTableViewAnimationKit/Classes/ZCTableViewAnimationKitConfig.h; sourceTree = "<group>"; };
+		39D096C10254A468F4937A41A38736B1 /* ZCDropdownList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCDropdownList-prefix.pch"; sourceTree = "<group>"; };
+		3DDFE2FA4F68D317E115CACBA8831284 /* Pods-ZCDropdownList_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCDropdownList_Example-resources.sh"; sourceTree = "<group>"; };
+		3EF110155DCFE95A1017910D38FBCCFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		477C3A35CE31D070CDC9DC3D876903B6 /* ZCTableViewAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCTableViewAnimationKit-prefix.pch"; sourceTree = "<group>"; };
+		48464AB9CFE60B20D750F30201D426EB /* Pods-ZCDropdownList_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZCDropdownList_Tests.modulemap"; sourceTree = "<group>"; };
+		49A399E1EDD7CCA6F4601819E2506E93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4ABDC19D2A7DA84D82DA56F8B13B84C8 /* ZCTableViewAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCTableViewAnimationKit.framework; path = ZCTableViewAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E85910EBEE511DA726C4D5AEEE0F27 /* ZCDropdownType1TableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDropdownType1TableViewCell.h; path = ZCDropdownList/Classes/ZCDropdownType1TableViewCell.h; sourceTree = "<group>"; };
+		650186A3B995D244ED3AF09238737823 /* ZCDropdownType2TableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDropdownType2TableViewCell.m; path = ZCDropdownList/Classes/ZCDropdownType2TableViewCell.m; sourceTree = "<group>"; };
+		688BC964489F446636B80C819AF5CB2C /* ZCTableViewAnimationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCTableViewAnimationKit.xcconfig; sourceTree = "<group>"; };
+		69FFD78E500251EA5968940E70C62D4B /* Pods-ZCDropdownList_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCDropdownList_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6CB68C4484CA32BA01B25E11AEDA4B1C /* UITableView+ZCAnimationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ZCAnimationKit.h"; path = "ZCTableViewAnimationKit/Classes/UITableView+ZCAnimationKit.h"; sourceTree = "<group>"; };
+		6F8C8EF7E88F84EA2E0A97F5EFC8E83C /* dropdownFlag@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dropdownFlag@3x.png"; sourceTree = "<group>"; };
+		7134E84C0A90173AFCEA8183D0AB3982 /* Pods-ZCDropdownList_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCDropdownList_Tests-umbrella.h"; sourceTree = "<group>"; };
+		715778285273140B5249578BDA974176 /* Pods-ZCDropdownList_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCDropdownList_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		77CA33240E257885F7043B412616E9E7 /* Pods-ZCDropdownList_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCDropdownList_Example-umbrella.h"; sourceTree = "<group>"; };
+		78B19CCF9C1C807B09E8EA2E305B1DFC /* Pods-ZCDropdownList_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCDropdownList_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		79B0D51D76C49B27DA26BB8C30D7C91E /* dropdownFlag@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dropdownFlag@2x.png"; sourceTree = "<group>"; };
+		84EA8DD2332B9DF83007FD5C89108FA5 /* ZCTableViewAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCTableViewAnimationKit-umbrella.h"; sourceTree = "<group>"; };
+		88E1C395C4799C81F46327987086684A /* ZCDropdownListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDropdownListView.h; path = ZCDropdownList/Classes/ZCDropdownListView.h; sourceTree = "<group>"; };
+		8FB690AA316C245E2E74D68AA03EC480 /* Pods-ZCDropdownList_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCDropdownList_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91053A1EE869FD2882973C14B67C2C5D /* ZCTableViewAnimationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCTableViewAnimationKit.h; path = ZCTableViewAnimationKit/Classes/ZCTableViewAnimationKit.h; sourceTree = "<group>"; };
+		92A714B4A3C7FC66D54DDBA0E5882AAD /* ZCTableViewAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZCTableViewAnimationKit.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99338B0425BD677379A5892F30480FDC /* Pods-ZCDropdownList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDropdownList_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A5939799B177A8F441E5A8A789E15E28 /* ZCDropdownType2TableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDropdownType2TableViewCell.h; path = ZCDropdownList/Classes/ZCDropdownType2TableViewCell.h; sourceTree = "<group>"; };
+		A629A2E0B0344C2E3DE6A88E3C84A073 /* Pods_ZCDropdownList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCDropdownList_Example.framework; path = "Pods-ZCDropdownList_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D0C618841D4876C328EAA159B89901 /* ZCDropdownType1TableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDropdownType1TableViewCell.m; path = ZCDropdownList/Classes/ZCDropdownType1TableViewCell.m; sourceTree = "<group>"; };
+		ACC80A30AF05533D5F4FC7FBCFC9F94D /* UITableView+ZCAnimationKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ZCAnimationKit.m"; path = "ZCTableViewAnimationKit/Classes/UITableView+ZCAnimationKit.m"; sourceTree = "<group>"; };
+		AFEF9877A2B1469F68E260FF4729E268 /* Pods-ZCDropdownList_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCDropdownList_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD6AC6A02689AC5D71AD6EFC268C0B48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C895C407A72F707420729751F638B6 /* ZCTableViewAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCTableViewAnimationKit-dummy.m"; sourceTree = "<group>"; };
+		C9D663133B305C3E78CDB1ADAEE1269B /* ZCDropdownList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZCDropdownList.modulemap; sourceTree = "<group>"; };
+		CD25FF3D1AF828CDEC83CA652FBD9E72 /* Pods-ZCDropdownList_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCDropdownList_Tests-resources.sh"; sourceTree = "<group>"; };
+		D2D235E1116344DDDA454C8841C2BECD /* ZCTableViewAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZCTableViewAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9502A2EF6F8C293D3E355E20C268988 /* ZCTableViewAnimationKitHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCTableViewAnimationKitHeaders.h; path = ZCTableViewAnimationKit/Classes/ZCTableViewAnimationKitHeaders.h; sourceTree = "<group>"; };
+		DE2AB288E6DC5685A203E9A59F5BCA15 /* Pods-ZCDropdownList_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDropdownList_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7C585DE38FCAC043F903246551E18EF /* Pods-ZCDropdownList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDropdownList_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EC7DB04A3EF8A4B37820891C6C5A43E3 /* ZCDropdownList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCDropdownList-umbrella.h"; sourceTree = "<group>"; };
+		ECE80B7A3AC32F49713F4B3FCCA1557D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6023BDD904F8385A8449CF5C4C3675AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCC4824D6F8F4815EE0C0B4731FE9D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89032A311CF67ADABE1844D17206317A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A020CE44D40858C7EBBF2CDD29F6EA08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEF8AD13B9ED5638ADA75C74B7104FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F573C271FD2971594A178508ACB9C5 /* Foundation.framework in Frameworks */,
+				3192B56CADF69F6EC021B22E0D9A4911 /* ZCTableViewAnimationKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB711F07A2228E30F295D15C2AC75F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C2DA63919D520C39EB5F61142AC2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEC6D2C8BC98D3802EBF44254972D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D235E1116344DDDA454C8841C2BECD /* ZCTableViewAnimationKit.framework */,
+				B1CADDD0B6510226A9C0064D808CBD13 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19D05691B90BF6E7394268274AEE11B0 /* ZCDropdownList */ = {
+			isa = PBXGroup;
+			children = (
+				88E1C395C4799C81F46327987086684A /* ZCDropdownListView.h */,
+				2C1A1BDA65022FB8747BC2F2687716C1 /* ZCDropdownListView.m */,
+				50E85910EBEE511DA726C4D5AEEE0F27 /* ZCDropdownType1TableViewCell.h */,
+				A6D0C618841D4876C328EAA159B89901 /* ZCDropdownType1TableViewCell.m */,
+				A5939799B177A8F441E5A8A789E15E28 /* ZCDropdownType2TableViewCell.h */,
+				650186A3B995D244ED3AF09238737823 /* ZCDropdownType2TableViewCell.m */,
+				1C0E3505C592F92B637101EBC81B9164 /* Pod */,
+				1E14D18D337B9D75C9ED47D193DD7BC9 /* Resources */,
+				D71E169FCF290CEF9EF566E7C4F056D3 /* Support Files */,
+				590BA3FE940360C8B3F0307EB4F80766 /* ZCDropdownList.bundle */,
+			);
+			name = ZCDropdownList;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1C0E3505C592F92B637101EBC81B9164 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				11EA4D8410F169685EEE143D3656E24C /* LICENSE */,
+				49A399E1EDD7CCA6F4601819E2506E93 /* README.md */,
+				20A53D693777C256002831AF7775E474 /* ZCDropdownList.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1E14D18D337B9D75C9ED47D193DD7BC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23FE395205B161F7EA0425FC013FFA84 /* ZCDropdownList.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		302B267490DB8A81EC0D5D3B2766C3D5 /* ZCTableViewAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				6CB68C4484CA32BA01B25E11AEDA4B1C /* UITableView+ZCAnimationKit.h */,
+				ACC80A30AF05533D5F4FC7FBCFC9F94D /* UITableView+ZCAnimationKit.m */,
+				91053A1EE869FD2882973C14B67C2C5D /* ZCTableViewAnimationKit.h */,
+				1BB79BFE84E974176059716DDC1739C4 /* ZCTableViewAnimationKit.m */,
+				340339D190B8940E8F57EE27CFF0CAD3 /* ZCTableViewAnimationKitConfig.h */,
+				D9502A2EF6F8C293D3E355E20C268988 /* ZCTableViewAnimationKitHeaders.h */,
+				B73C4A9E8E1701F7FDF59A8461333271 /* Support Files */,
+			);
+			name = ZCTableViewAnimationKit;
+			path = ZCTableViewAnimationKit;
+			sourceTree = "<group>";
+		};
+		4ECBE8DCB299F590ECD070330C1532D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19D05691B90BF6E7394268274AEE11B0 /* ZCDropdownList */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		590BA3FE940360C8B3F0307EB4F80766 /* ZCDropdownList.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				79B0D51D76C49B27DA26BB8C30D7C91E /* dropdownFlag@2x.png */,
+				6F8C8EF7E88F84EA2E0A97F5EFC8E83C /* dropdownFlag@3x.png */,
+			);
+			name = ZCDropdownList.bundle;
+			path = ZCDropdownList/Classes/ZCDropdownList.bundle;
+			sourceTree = "<group>";
+		};
+		60D58C4AA40255D8C15BAA9385DD51B2 /* Pods-ZCDropdownList_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3EF110155DCFE95A1017910D38FBCCFC /* Info.plist */,
+				1364A442D491E175FEE66095A00D2EC3 /* Pods-ZCDropdownList_Example.modulemap */,
+				8FB690AA316C245E2E74D68AA03EC480 /* Pods-ZCDropdownList_Example-acknowledgements.markdown */,
+				715778285273140B5249578BDA974176 /* Pods-ZCDropdownList_Example-acknowledgements.plist */,
+				0D3BB7C9FA73224C650CC6410C00D537 /* Pods-ZCDropdownList_Example-dummy.m */,
+				312AB544BB20D2E1FE774D0BD64DF220 /* Pods-ZCDropdownList_Example-frameworks.sh */,
+				3DDFE2FA4F68D317E115CACBA8831284 /* Pods-ZCDropdownList_Example-resources.sh */,
+				77CA33240E257885F7043B412616E9E7 /* Pods-ZCDropdownList_Example-umbrella.h */,
+				99338B0425BD677379A5892F30480FDC /* Pods-ZCDropdownList_Example.debug.xcconfig */,
+				E7C585DE38FCAC043F903246551E18EF /* Pods-ZCDropdownList_Example.release.xcconfig */,
+			);
+			name = "Pods-ZCDropdownList_Example";
+			path = "Target Support Files/Pods-ZCDropdownList_Example";
+			sourceTree = "<group>";
+		};
+		662881514C02F893BFCB25E82746F259 /* Pods-ZCDropdownList_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0269EF7109F4FFB5F0C7A0C6694A8E99 /* Info.plist */,
+				48464AB9CFE60B20D750F30201D426EB /* Pods-ZCDropdownList_Tests.modulemap */,
+				AFEF9877A2B1469F68E260FF4729E268 /* Pods-ZCDropdownList_Tests-acknowledgements.markdown */,
+				78B19CCF9C1C807B09E8EA2E305B1DFC /* Pods-ZCDropdownList_Tests-acknowledgements.plist */,
+				21153BC8BD356969BA25C201C9D3140A /* Pods-ZCDropdownList_Tests-dummy.m */,
+				69FFD78E500251EA5968940E70C62D4B /* Pods-ZCDropdownList_Tests-frameworks.sh */,
+				CD25FF3D1AF828CDEC83CA652FBD9E72 /* Pods-ZCDropdownList_Tests-resources.sh */,
+				7134E84C0A90173AFCEA8183D0AB3982 /* Pods-ZCDropdownList_Tests-umbrella.h */,
+				041B3ED01B5D3FF66D7F28A977B51933 /* Pods-ZCDropdownList_Tests.debug.xcconfig */,
+				DE2AB288E6DC5685A203E9A59F5BCA15 /* Pods-ZCDropdownList_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZCDropdownList_Tests";
+			path = "Target Support Files/Pods-ZCDropdownList_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4ECBE8DCB299F590ECD070330C1532D2 /* Development Pods */,
+				0AEC6D2C8BC98D3802EBF44254972D57 /* Frameworks */,
+				D25D5E154DD5802664C86ED6030C46A2 /* Pods */,
+				92C72C8571BB1AC0FCFA8712F8D3795C /* Products */,
+				F62C3AE35292054547A511A690A785BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92C72C8571BB1AC0FCFA8712F8D3795C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A629A2E0B0344C2E3DE6A88E3C84A073 /* Pods_ZCDropdownList_Example.framework */,
+				21933F99B9F9980C3B15E302340FEA30 /* Pods_ZCDropdownList_Tests.framework */,
+				01A23FA9AB1DD26BFC569F01C46DC863 /* ZCDropdownList.framework */,
+				4ABDC19D2A7DA84D82DA56F8B13B84C8 /* ZCTableViewAnimationKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1CADDD0B6510226A9C0064D808CBD13 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECE80B7A3AC32F49713F4B3FCCA1557D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B73C4A9E8E1701F7FDF59A8461333271 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6AC6A02689AC5D71AD6EFC268C0B48 /* Info.plist */,
+				92A714B4A3C7FC66D54DDBA0E5882AAD /* ZCTableViewAnimationKit.modulemap */,
+				688BC964489F446636B80C819AF5CB2C /* ZCTableViewAnimationKit.xcconfig */,
+				C8C895C407A72F707420729751F638B6 /* ZCTableViewAnimationKit-dummy.m */,
+				477C3A35CE31D070CDC9DC3D876903B6 /* ZCTableViewAnimationKit-prefix.pch */,
+				84EA8DD2332B9DF83007FD5C89108FA5 /* ZCTableViewAnimationKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZCTableViewAnimationKit";
+			sourceTree = "<group>";
+		};
+		D25D5E154DD5802664C86ED6030C46A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				302B267490DB8A81EC0D5D3B2766C3D5 /* ZCTableViewAnimationKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D71E169FCF290CEF9EF566E7C4F056D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC4D2FF530C5E208D5F09B8D1F5A9E4 /* Info.plist */,
+				C9D663133B305C3E78CDB1ADAEE1269B /* ZCDropdownList.modulemap */,
+				294DA159869774002B59758C7CA3F9D0 /* ZCDropdownList.xcconfig */,
+				0DE168600DD2A832D690ABCC6CB4C10E /* ZCDropdownList-dummy.m */,
+				39D096C10254A468F4937A41A38736B1 /* ZCDropdownList-prefix.pch */,
+				EC7DB04A3EF8A4B37820891C6C5A43E3 /* ZCDropdownList-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZCDropdownList";
+			sourceTree = "<group>";
+		};
+		F62C3AE35292054547A511A690A785BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60D58C4AA40255D8C15BAA9385DD51B2 /* Pods-ZCDropdownList_Example */,
+				662881514C02F893BFCB25E82746F259 /* Pods-ZCDropdownList_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		398B509231D96BA45CA3D7593F85DFD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D482EDD51638BAD783F6F3E450FACEB /* Pods-ZCDropdownList_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAFCDB535ABC98F0F4F378C57B748BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C3A70C82A135EEA73FC403573B89A3 /* UITableView+ZCAnimationKit.h in Headers */,
+				C7BF6BCE247EE0D3207783EFB867398A /* ZCTableViewAnimationKit-umbrella.h in Headers */,
+				6F38165EBE006118D5B26B757096AF3C /* ZCTableViewAnimationKit.h in Headers */,
+				21D27562F488A777BB92CB149483AC88 /* ZCTableViewAnimationKitConfig.h in Headers */,
+				6BFA20123747C1AD6A33DCCC97E341A9 /* ZCTableViewAnimationKitHeaders.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6CACDC6D139F23E7B6554F7DA021F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671C1392CA2B9A82C05850440B59DF87 /* ZCDropdownList-umbrella.h in Headers */,
+				0BF978EC703E6A05C771E20F114C1B4B /* ZCDropdownListView.h in Headers */,
+				F0A8244807B01078FA520C90BBBE8368 /* ZCDropdownType1TableViewCell.h in Headers */,
+				867D96EFE3DF5898DC7BEEE982485818 /* ZCDropdownType2TableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F97FD287C698314DAD95F73DB2DB02C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE830830AEEC6DB8F08F3B034677594 /* Pods-ZCDropdownList_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		155C1CB0EB85FAD460F11E8E5369FF35 /* Pods-ZCDropdownList_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4F6B5B67E1157B4EFAD48009BF659C /* Build configuration list for PBXNativeTarget "Pods-ZCDropdownList_Example" */;
+			buildPhases = (
+				69437A61C88B313F1CA2D17E1FED5B5C /* Sources */,
+				89032A311CF67ADABE1844D17206317A /* Frameworks */,
+				F97FD287C698314DAD95F73DB2DB02C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56320A49899FBEE978A1716484BD14D /* PBXTargetDependency */,
+				3D9D090CF1904E77E6784F0231509AE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZCDropdownList_Example";
+			productName = "Pods-ZCDropdownList_Example";
+			productReference = A629A2E0B0344C2E3DE6A88E3C84A073 /* Pods_ZCDropdownList_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74B0DB524554CAFFD7EB9E3E85EBD0AF /* ZCTableViewAnimationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E2B59309F88F70F565EAAF1B3039B8 /* Build configuration list for PBXNativeTarget "ZCTableViewAnimationKit" */;
+			buildPhases = (
+				4351A293C71B5F0880A049C8041BB057 /* Sources */,
+				6023BDD904F8385A8449CF5C4C3675AE /* Frameworks */,
+				3DAFCDB535ABC98F0F4F378C57B748BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCTableViewAnimationKit;
+			productName = ZCTableViewAnimationKit;
+			productReference = 4ABDC19D2A7DA84D82DA56F8B13B84C8 /* ZCTableViewAnimationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8E9421BE8D501739A89858370C3A013 /* Pods-ZCDropdownList_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE3C502912733E409D605C7ADA5558F /* Build configuration list for PBXNativeTarget "Pods-ZCDropdownList_Tests" */;
+			buildPhases = (
+				1A53093F78C993491D802C250EB795E9 /* Sources */,
+				EB711F07A2228E30F295D15C2AC75F65 /* Frameworks */,
+				398B509231D96BA45CA3D7593F85DFD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03F0C5F0CF101771E81D2933F21C5F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZCDropdownList_Tests";
+			productName = "Pods-ZCDropdownList_Tests";
+			productReference = 21933F99B9F9980C3B15E302340FEA30 /* Pods_ZCDropdownList_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9F011868C0342C5115582CBAE795C5F /* ZCDropdownList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A0D9C54916CFB39165DC014CD66690 /* Build configuration list for PBXNativeTarget "ZCDropdownList" */;
+			buildPhases = (
+				444D27A16FCBA702C5486F4FD09374F4 /* Sources */,
+				AAEF8AD13B9ED5638ADA75C74B7104FD /* Frameworks */,
+				8C6CACDC6D139F23E7B6554F7DA021F0 /* Headers */,
+				FB0041CE1A27726A962B6E9B27AD86A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0732B08C6338875EA06441D492E2748 /* PBXTargetDependency */,
+			);
+			name = ZCDropdownList;
+			productName = ZCDropdownList;
+			productReference = 01A23FA9AB1DD26BFC569F01C46DC863 /* ZCDropdownList.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 92C72C8571BB1AC0FCFA8712F8D3795C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				155C1CB0EB85FAD460F11E8E5369FF35 /* Pods-ZCDropdownList_Example */,
+				C8E9421BE8D501739A89858370C3A013 /* Pods-ZCDropdownList_Tests */,
+				D9F011868C0342C5115582CBAE795C5F /* ZCDropdownList */,
+				74B0DB524554CAFFD7EB9E3E85EBD0AF /* ZCTableViewAnimationKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0041CE1A27726A962B6E9B27AD86A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0478E07842B47F2FF15B3BD20FD06D /* ZCDropdownList.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A53093F78C993491D802C250EB795E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F9EAC8ED94E973C45A09A801B3BC8F /* Pods-ZCDropdownList_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351A293C71B5F0880A049C8041BB057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734416992AB60AD8881292DD85C11961 /* UITableView+ZCAnimationKit.m in Sources */,
+				B9884824BC479D138ADC2D2C51299C36 /* ZCTableViewAnimationKit-dummy.m in Sources */,
+				0BFC1155212437D33DCB1AF18A6F6F71 /* ZCTableViewAnimationKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		444D27A16FCBA702C5486F4FD09374F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A012C7249BDD688653645AFD0BAE430 /* dropdownFlag@2x.png in Sources */,
+				7DA77DA22A8908E1B2C282BE4A15EAEE /* dropdownFlag@3x.png in Sources */,
+				9657A7DD66AE9EEEA7D1BA078454AAE4 /* ZCDropdownList-dummy.m in Sources */,
+				5BB6D620DE7D52E2A37EE68E7E7DC585 /* ZCDropdownListView.m in Sources */,
+				770AABE9842C15C0114D7D4CCD64C97C /* ZCDropdownType1TableViewCell.m in Sources */,
+				84356373C067C28CFC418EA8BD823D9C /* ZCDropdownType2TableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69437A61C88B313F1CA2D17E1FED5B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E696B1D179EB850EC010C08BCE08B18D /* Pods-ZCDropdownList_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D9D090CF1904E77E6784F0231509AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCTableViewAnimationKit;
+			target = 74B0DB524554CAFFD7EB9E3E85EBD0AF /* ZCTableViewAnimationKit */;
+			targetProxy = 2E3BD3E72E54593F4422EA20751D0C36 /* PBXContainerItemProxy */;
+		};
+		A0732B08C6338875EA06441D492E2748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCTableViewAnimationKit;
+			target = 74B0DB524554CAFFD7EB9E3E85EBD0AF /* ZCTableViewAnimationKit */;
+			targetProxy = 068598D7ADB14708B277451225048AAD /* PBXContainerItemProxy */;
+		};
+		F03F0C5F0CF101771E81D2933F21C5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZCDropdownList_Example";
+			target = 155C1CB0EB85FAD460F11E8E5369FF35 /* Pods-ZCDropdownList_Example */;
+			targetProxy = 278FC0FB43B5F31F95EB719E52927B33 /* PBXContainerItemProxy */;
+		};
+		F56320A49899FBEE978A1716484BD14D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCDropdownList;
+			target = D9F011868C0342C5115582CBAE795C5F /* ZCDropdownList */;
+			targetProxy = BDC55E7615485BB6A3979393CF6F64E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46DB9446AF5480CAED58B0EF0C8C7FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C585DE38FCAC043F903246551E18EF /* Pods-ZCDropdownList_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDropdownList_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDropdownList_Example/Pods-ZCDropdownList_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A97B42FF0ABFE4ADAB11509DD2E6DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688BC964489F446636B80C819AF5CB2C /* ZCTableViewAnimationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCTableViewAnimationKit/ZCTableViewAnimationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCTableViewAnimationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCTableViewAnimationKit/ZCTableViewAnimationKit.modulemap";
+				PRODUCT_MODULE_NAME = ZCTableViewAnimationKit;
+				PRODUCT_NAME = ZCTableViewAnimationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71F184C07AD3B0B03E554CA123C69738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99338B0425BD677379A5892F30480FDC /* Pods-ZCDropdownList_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDropdownList_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDropdownList_Example/Pods-ZCDropdownList_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D19BA2E18BBD8DC97BC2F9059E1456E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688BC964489F446636B80C819AF5CB2C /* ZCTableViewAnimationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCTableViewAnimationKit/ZCTableViewAnimationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCTableViewAnimationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCTableViewAnimationKit/ZCTableViewAnimationKit.modulemap";
+				PRODUCT_MODULE_NAME = ZCTableViewAnimationKit;
+				PRODUCT_NAME = ZCTableViewAnimationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2BB27C654737E62A656D7F08375580F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294DA159869774002B59758C7CA3F9D0 /* ZCDropdownList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCDropdownList/ZCDropdownList-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCDropdownList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCDropdownList/ZCDropdownList.modulemap";
+				PRODUCT_MODULE_NAME = ZCDropdownList;
+				PRODUCT_NAME = ZCDropdownList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D47F5460F2AFCB22579B775850012E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041B3ED01B5D3FF66D7F28A977B51933 /* Pods-ZCDropdownList_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDropdownList_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDropdownList_Tests/Pods-ZCDropdownList_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2D176EE5BF934E168619C71556E01DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294DA159869774002B59758C7CA3F9D0 /* ZCDropdownList.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCDropdownList/ZCDropdownList-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCDropdownList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCDropdownList/ZCDropdownList.modulemap";
+				PRODUCT_MODULE_NAME = ZCDropdownList;
+				PRODUCT_NAME = ZCDropdownList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FB66ACB91770509D13919AFB8C1170B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2AB288E6DC5685A203E9A59F5BCA15 /* Pods-ZCDropdownList_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDropdownList_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDropdownList_Tests/Pods-ZCDropdownList_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A0D9C54916CFB39165DC014CD66690 /* Build configuration list for PBXNativeTarget "ZCDropdownList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D176EE5BF934E168619C71556E01DF /* Debug */,
+				D2BB27C654737E62A656D7F08375580F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4F6B5B67E1157B4EFAD48009BF659C /* Build configuration list for PBXNativeTarget "Pods-ZCDropdownList_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F184C07AD3B0B03E554CA123C69738 /* Debug */,
+				46DB9446AF5480CAED58B0EF0C8C7FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE3C502912733E409D605C7ADA5558F /* Build configuration list for PBXNativeTarget "Pods-ZCDropdownList_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47F5460F2AFCB22579B775850012E24 /* Debug */,
+				FB66ACB91770509D13919AFB8C1170B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E2B59309F88F70F565EAAF1B3039B8 /* Build configuration list for PBXNativeTarget "ZCTableViewAnimationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A97B42FF0ABFE4ADAB11509DD2E6DCE /* Debug */,
+				D19BA2E18BBD8DC97BC2F9059E1456E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,23 @@
+PODS:
+  - ZCDropdownList (0.1.0):
+    - ZCTableViewAnimationKit (~> 0.1.0)
+  - ZCTableViewAnimationKit (0.1.0)
+
+DEPENDENCIES:
+  - ZCDropdownList (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ZCTableViewAnimationKit
+
+EXTERNAL SOURCES:
+  ZCDropdownList:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZCDropdownList: 62cd3f517419ceadcdbabf8bc9bc3b7a0ba1f66e
+  ZCTableViewAnimationKit: 47105a05f6fdbf4a875596a6f85c6681fe5e4c9b
+
+PODFILE CHECKSUM: a67e94d274bbe8c666ff90544ddf9a6387f85eec
+
+COCOAPODS: 1.5.0
