@@ -1,29 +1,40 @@
-# ZCDropdownList
+### ZCDropdownList
 
-[![CI Status](https://img.shields.io/travis/zczczyc/ZCDropdownList.svg?style=flat)](https://travis-ci.org/zczczyc/ZCDropdownList)
-[![Version](https://img.shields.io/cocoapods/v/ZCDropdownList.svg?style=flat)](https://cocoapods.org/pods/ZCDropdownList)
-[![License](https://img.shields.io/cocoapods/l/ZCDropdownList.svg?style=flat)](https://cocoapods.org/pods/ZCDropdownList)
-[![Platform](https://img.shields.io/cocoapods/p/ZCDropdownList.svg?style=flat)](https://cocoapods.org/pods/ZCDropdownList)
+[![效果图](images/01.gif)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-ZCDropdownList is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+一：
 ```ruby
 pod 'ZCDropdownList'
 ```
 
-## Author
+二：
 
-zczczyc, gitzczyc
+```#import "ZCDropdownListView.h"```
 
-## License
+三：
+```
 
-ZCDropdownList is available under the MIT license. See the LICENSE file for more info.
+ZCDropdownListItem *item1 = [[ZCDropdownListItem alloc] initWithItem:@"1" itemName:@"到手价"];
+ZCDropdownListItem *item2 = [[ZCDropdownListItem alloc] initWithItem:@"2" itemName:@"返利最高"];
+ZCDropdownListItem *item3 = [[ZCDropdownListItem alloc] initWithItem:@"3" itemName:@"返利最低"];
+NSArray *select1Array = @[item1,item2,item3];
+
+
+ZCDropdownListView *dropdownListView = [[ZCDropdownListView alloc] initWithDataSource:select1Array withType:2];
+dropdownListView.frame = CGRectMake(0, 0, kScreenWidth/3, 30);
+dropdownListView.selectedIndex = 0;
+//    dropdownListView.categoryName = @"分类";
+[dropdownListView setViewBorder:0.5 borderColor:[UIColor grayColor] cornerRadius:2];
+[self addSubview:dropdownListView];
+
+[dropdownListView setDropdownListViewSelectedBlock:^(ZCDropdownListView *dropdownListView) {
+NSString *msgString = [NSString stringWithFormat:
+@"selected name:%@  id:%@"
+, dropdownListView.selectedItem.itemName
+, dropdownListView.selectedItem.itemId];
+
+NSLog(@"%@",msgString);
+}];
+```
+
+
