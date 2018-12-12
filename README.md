@@ -1,6 +1,6 @@
 ### ZCDropdownList
 
-![图片](images/01.gif)
+![图片](imags/01.gif)
 
 一：
 ```ruby
