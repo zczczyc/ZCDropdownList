@@ -4,7 +4,7 @@
 
 一：
 ```ruby
-pod 'ZCDropdownList'
+pod 'ZCDropdownList', '~> 0.1.1'
 ```
 
 二：
